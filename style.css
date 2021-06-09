@@ -1,0 +1,106 @@
+body {
+background: #d8e3e7;
+text-align: center;
+}
+
+h1 { 
+	color: red; 
+	font-family: 'Cinzel', serif;
+}
+
+h2 { 
+	color: black; 
+	font-family: 'Cinzel', serif;
+}
+
+h3, ul {
+	text-align: left;
+	font-family: 'Verdana', serif;
+}
+
+p {
+color: black; 
+	font-family: 'Cinzel', serif;
+	
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border: 10px solid black;
+	box-shadow: 10px 10px 10px grey;
+}
+
+
+.frame1{
+	border: 4px dashed #4b778d;
+	margin: 20px auto;
+	padding:100px;
+	width: 400px; 
+} 
+
+.drapeau {
+	background: black;
+	height: 5px;
+	width: 1500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blue {
+	background: blue;
+	height: 300px;
+	width: 600px;
+}
+
+.white {
+	background: white;
+	height: 300px;
+	width: 600px;
+}
+
+.red {
+	background: red;
+	height: 300px;
+	width: 600px;
+}
+
+.coucou{
+	justify-content:center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4b778d;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 5px 10px;
+  color: #ffffff;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.logo {
+height: 60px;
+	width: 90px;
+
+}
+
+.btn-primary {
+	background: white;
+	 color: #4b778d;
+}
+
